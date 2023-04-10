@@ -1,31 +1,3 @@
-@-moz-keyframes scroll {
-    0% {
-      -moz-transform: translate(0, 0);
-      transform: translate(0, 0);
-    }
-    100% {
-      -moz-transform: translate(-100%, 0);
-      transform: translate(-100%, 0);
-    }
-  }
-  @keyframes scroll {
-    0% {
-      transform: translate(0, 0);
-    }
-    100% {
-      transform: translate(-100%, 0);
-    }
-  }
-  
-  .newsticker {
-    display: block;
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    background: #009efa;
-    color: #000000;
-    padding: 1em 0;
-  }
   .newsticker a {
     color: #009efa;
     font-size: 1em;
@@ -98,15 +70,4 @@
   display: none;
 }
 
-.rules-text.animated {
-  animation: scroll 20s infinite linear;
-}a
 
-@keyframes scroll {
-  0% {
-    transform: translate(0, 0);
-  }
-  100% {
-    transform: translate(-100%, 0);
-  }
-}
