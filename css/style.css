@@ -94,4 +94,19 @@
     margin: 0 auto;
     text-align: center;
   }
-  
+  .rules-text {
+  display: none;
+}
+
+.rules-text.animated {
+  animation: scroll 20s infinite linear;
+}a
+
+@keyframes scroll {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
